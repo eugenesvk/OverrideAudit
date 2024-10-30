@@ -43,6 +43,8 @@ class OverrideReportThread(ReportGenerationThread):
         if exclude_unchanged:
             result.append("WARNING: Showing only modified overrides!\n"
                           "WARNING: Overrides with unchanged content may exist!\n")
+        result.append("""[S]hipped (core in ST binary) [I]nstalled (in "Installed Packages") [U]npacked (subdir of "Packages")\n"""
+                      "[Disabled package] <Dependency>\n")
 
         result.append(self._generation_time())
 
