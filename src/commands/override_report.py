@@ -59,11 +59,10 @@ class OverrideReportThread(ReportGenerationThread):
                     packages[pkg_name] = pkg_info.status(detailed=True)
                     displayed += 1
 
-        if displayed == 0:
-            if ignore_empty:
-                return sublime.set_timeout(self._notify_empty(), 10)
-
-            result.append(self._empty_msg())
+        #if displayed == 0:
+        #    if ignore_empty:
+        #        return sublime.set_timeout(self._notify_empty(), 10)
+        #    result.append(self._empty_msg())
 
         self._set_content(title, result, report_type,
                           oa_syntax("OA-OverrideReport"),
