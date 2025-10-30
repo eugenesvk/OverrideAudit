@@ -1,6 +1,20 @@
 OverrideAudit ChangeLog
 =======================
 
+Version 3.0.1 (2025-10-29)
+--------------------------
+
+  * Small update to make OverrideAudit compatible with the
+    new 3.13 plugin host in Sublime Text 4201+, with thanks
+    to @jfcherng
+
+  * Documentation fixes with thanks to @vwheeler63
+
+  * Small change to the verbiage used in hover popups when
+    a package contains a .python-version file that specifies
+    an invalid Python version
+
+
 Version 3.0.0 (2025-06-06)
 --------------------------
 
