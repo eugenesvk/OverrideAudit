@@ -611,7 +611,7 @@ class PackageInfo():
             # If the version is not valid, Sublime ignores plugins in the
             # package.
             if version not in versions:
-                return f"{version} (invalid version; plugins are ignored in this package)"
+                return f"{version} (invalid version; plugins may be ignored in this package)"
 
             return version
 
