@@ -1,6 +1,13 @@
 OverrideAudit ChangeLog
 =======================
 
+Version 3.0.101 (2025-10-29)
+--------------------------
+
+  - force ignore empty reports
+  - add ⚠ legend to the expired audit report
+  - formatting: reformat commands to condense and align
+
 Version 3.0.1 (2025-10-29)
 --------------------------
 
