@@ -140,7 +140,8 @@ class OverrideReportThread(ReportGenerationThread):
                 "expired " if self.args["only_expired"] else "")
 
     def _notify_empty(self):
-        log(self._empty_msg(), status=True)
+        pass
+        # log(self._empty_msg(), status=True)
 
 
 ###----------------------------------------------------------------------------
